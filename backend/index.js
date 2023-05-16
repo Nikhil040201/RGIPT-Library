@@ -7,7 +7,9 @@ const md5 = require("md5");
 const app = express();
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
-app.use(cors())
+app.use(cors({
+    origin:process.env.FRONTURI
+}));
 
 mongoose.connect(process.env.DBURL).then(() => {
     console.log("Connection Established")
