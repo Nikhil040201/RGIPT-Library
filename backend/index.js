@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors({
-    origin:process.env.FRONTURI
+    origin:[process.env.FRONTURI]
 }));
 
 mongoose.connect(process.env.DBURL).then(() => {
