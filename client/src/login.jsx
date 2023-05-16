@@ -26,7 +26,7 @@ const Login = ({ setLoginUser }) => {
   const login = () => {
     const { email, password } = user
     if (email && password) {
-      axios.post("http://localhost:3001/login", user).then((res) => {
+      axios.post("https://rgipt-library.onrender.com/login", user).then((res) => {
         alert(res.data.message);
         setLoginUser(res.data.user);
         navigate("/home");
