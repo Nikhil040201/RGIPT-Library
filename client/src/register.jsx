@@ -26,7 +26,7 @@ const Register = () => {
   const register = () => {
     const { name, email, password, reEnterPassword } = user;
     if (name && email && password && (password === reEnterPassword)) {
-      axios.post("http://localhost:3001/register", user).then((res) => {
+      axios.post("https://rgipt-library.onrender.com/register", user).then((res) => {
         alert(res.data.message);
         navigate("/");
       })
