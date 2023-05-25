@@ -7,31 +7,31 @@ import storage from './config/firebase'
 function Year4() {
     useEffect(() => {
         getDownloadURL(ref(storage, 'Mass Transfer.pdf')).then((url) =>
-            console.log(url)
+            
         )
     })
 
     useEffect(() => {
         getDownloadURL(ref(storage, 'PLANT DESIGN AND ECONOMICS FOR CHEMICAL ENGINEERS.pdf')).then((url) =>
-            console.log(url)
+            
         )
     })
 
     useEffect(() => {
         getDownloadURL(ref(storage, 'chemical-process-safety-2nd-ed-daniel-a-crowl-joseph-f-louvar.pdf')).then((url) =>
-            console.log(url)
+            
         )
     })
 
     useEffect(() => {
         getDownloadURL(ref(storage, 'applied_process_design_for chemical and petrochemical plantsvolume1_3e.pdf')).then((url) =>
-            console.log(url)
+            
         )
     })
 
     useEffect(() => {
         getDownloadURL(ref(storage, '136649035-process-systems-analysis-and-control-d-coughanowr-3rd-ed (1).pdf')).then((url) =>
-            console.log(url)
+            
         )
     })
     return (
