@@ -7,27 +7,27 @@ import storage from './config/firebase'
 function Year1() {
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Concepts Of Modern Physics.pdf')).then((url)=>
-        
+        console.log()
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Classical Physics Book_Mechanics_Goldstein_Classical_Mechanics_optimized.pdf')).then((url)=>
-        
+        console.log()
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Heterocyclic chemistry - Gilchrist, T. L. (Thomas Lonsda.pdf')).then((url)=>
-        
+        console.log()
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Organic Synthesis. Strategy and Control.pdf')).then((url)=>
-        
+        console.log()
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'RAC Robert G Batle.pdf')).then((url)=>
-        
+        console.log()
     )})
 
     return (
