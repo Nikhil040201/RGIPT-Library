@@ -8,32 +8,32 @@ function Year2() {
     
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Data Structures With C - by schaum lipschutz.pdf')).then((url)=>
-        console.log(url)
+        
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'ENGINEERING DRAWING BY N.D BHATT.pdf')).then((url)=>
-        console.log(url)
+        
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Learning_Python.pdf')).then((url)=>
-        console.log(url)
+        
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Linear Algebra and Its Applications.pdf')).then((url)=>
-        console.log(url)
+       
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'material-science-and-engineering-v-raghavanpdf-pr_dbbff24bdad78633ad30dd9bfbf9f7af.pdf')).then((url)=>
-        console.log(url)
+        
     )})
 
     useEffect(()=>{
         getDownloadURL(ref(storage, 'Statistical and mathematics.pdf')).then((url)=>
-        console.log(url)
+        
     )})
     return (
         <div className="main ">
